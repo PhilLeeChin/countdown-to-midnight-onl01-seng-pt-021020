@@ -10,10 +10,9 @@ def countdown(time)
   end
 end
 
-def countdown_with_sleep(sleep)
-  sleep = 5
-  while sleep > 4
-    sleep += 1
-    puts "#{sleep}"
+def countdown_with_sleep(alarm)
+  while alarm > 4
+    sleep 5
+    alarm -= 1
   end
 end
