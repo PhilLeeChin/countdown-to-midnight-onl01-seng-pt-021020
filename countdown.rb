@@ -11,7 +11,7 @@ def countdown(time)
 end
 
 def countdown_with_sleep(alarm)
-  while alarm > 4
+  while alarm = 4
     sleep 5
     alarm -= 1
   end
